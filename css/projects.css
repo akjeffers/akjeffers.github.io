@@ -1,0 +1,79 @@
+/* General */
+
+
+html {
+    background-color: #5f45bb;
+    background-image: linear-gradient(to bottom right, #180cac, #d054e4);
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+    min-height: 100vh;
+    min-width: 300px;
+    overflow-x: hidden;
+    text-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+
+}
+
+.flex-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    }
+.flex-item > img {
+    width: 50px;
+}
+
+
+
+/* Specific */
+
+h1 {
+    
+}
+
+li {
+    list-style-type: none;
+}
+
+.wallpaper  {   
+    background-image: url("../images/columbus.jpg");
+    background-position: center;
+    background-size: cover;
+    opacity: 0.2;
+    position: fixed;
+    display: block;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+/* Project Images */ 
+img {
+   width: 120px;
+   border-radius: 10px;
+   /* max-width: 100x; */
+}
+
+/* Individual Cards */
+
+.singleCard {
+    background-color: #fff;
+    border-radius: .5em;
+    box-sizing: border-box;
+    height: 20em;
+    margin: .5em;
+    padding: 1em;
+    position: relative;
+    width: 25em;
+    box-shadow: 0 2rem 2rem rgba(0,0,0,0.3);
+    color: black;
+    text-align: center;
+}
